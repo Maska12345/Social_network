@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <workItem from="1631206458209" duration="1247000" />
       <workItem from="1631253397262" duration="184000" />
       <workItem from="1631604018763" duration="7632000" />
-      <workItem from="1631642750420" duration="2423000" />
+      <workItem from="1631642750420" duration="4630000" />
     </task>
     <servers />
   </component>
@@ -125,6 +128,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631192111209" />
+    <state x="532" y="257" key="run.anything.popup" timestamp="1631648835658">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="532" y="257" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1631648835658" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631190500539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

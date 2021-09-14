@@ -10,6 +10,14 @@
   grid-template-columns: 2fr 10fr;
 }
 
+.appContent{
+  grid-area: content;
+  background-color: coral;
+}
+.appContent img{
+  width: 100%;
+}
+
 
 
 
