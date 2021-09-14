@@ -3,13 +3,13 @@ import postStyle from "./Post.module.css";
 
 
 
-const Post = () =>{
+const Post = (props) =>{
     return(
                 <div  className={postStyle.post}>
-                    <img src="https://lh3.googleusercontent.com/proxy/UWQTDrozhLCGUaTTpVN9T1o9AhNifBQB186woGm3eTc_76YLEWIYtk_z55eV5dvzX0swrvi-y1NVQFMTp52nkmPMlkJmQYnwv5xa2C_gjBrtdlHABiMldFZpTKqJCQ" />
-                    Post 1
+                    <img src="https://cs-site.ru/uploads/posts/2020-09/1600253903_35.jpg" />
+                    {props.message}
+                    <div><span>like {props.like}</span></div>
                 </div>
-
 
     )
 }
