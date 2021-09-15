@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Music/Music.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Music/Music.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/News/News.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/News/News.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Settings/Settings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Settings/Settings.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile/MyPosts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Settings" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -48,15 +55,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\My\Projects\Social_network\src\Components\Profile\MyPosts" />
-      <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
-      <recent name="D:\My\Projects\Social_network\src\Components\Profile\MyPosts\MyPost" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
       <recent name="D:\My\Projects\Social_network\src\Components\Nav" />
       <recent name="D:\My\Projects\Social_network\src\Components\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\Social_network\src\Components\Settings" />
+      <recent name="E:\Projects\Social_network\src\Components\News" />
+      <recent name="E:\Projects\Social_network\src\Components\Music" />
+      <recent name="D:\My\Projects\Social_network\src\Components\Profile\MyPosts" />
+      <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -74,7 +83,8 @@
       <workItem from="1631206458209" duration="1247000" />
       <workItem from="1631253397262" duration="184000" />
       <workItem from="1631604018763" duration="7632000" />
-      <workItem from="1631642750420" duration="4630000" />
+      <workItem from="1631642750420" duration="5392000" />
+      <workItem from="1631734186237" duration="5289000" />
     </task>
     <servers />
   </component>
@@ -103,22 +113,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="114" key="CommitChangelistDialog2/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631191883340" />
-    <state width="1893" height="245" key="GridCell.Tab.0.bottom" timestamp="1631642857922">
+    <state width="1893" height="245" key="GridCell.Tab.0.bottom" timestamp="1631656302599">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1893" height="245" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1631642857922" />
-    <state width="1893" height="245" key="GridCell.Tab.0.center" timestamp="1631642857922">
+    <state width="1893" height="245" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
+    <state width="1893" height="245" key="GridCell.Tab.0.center" timestamp="1631656302599">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1893" height="245" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1631642857922" />
-    <state width="1893" height="245" key="GridCell.Tab.0.left" timestamp="1631642857921">
+    <state width="1893" height="245" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
+    <state width="1893" height="245" key="GridCell.Tab.0.left" timestamp="1631656302599">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1893" height="245" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1631642857921" />
-    <state width="1893" height="245" key="GridCell.Tab.0.right" timestamp="1631642857922">
+    <state width="1893" height="245" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
+    <state width="1893" height="245" key="GridCell.Tab.0.right" timestamp="1631656302599">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1893" height="245" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1631642857922" />
+    <state width="1893" height="245" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
     <state x="461" y="191" key="SettingsEditor" timestamp="1631206526301">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
