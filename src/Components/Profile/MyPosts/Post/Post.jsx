@@ -7,7 +7,7 @@ const Post = (props) =>{
     return(
                 <div  className={postStyle.post}>
                     <img src="https://cs-site.ru/uploads/posts/2020-09/1600253903_35.jpg" />
-                    {props.message}
+                    {props.post}
                     <div><span>like {props.like}</span></div>
                 </div>
 

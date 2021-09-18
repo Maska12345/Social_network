@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Message/Message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile/ProfileInfo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -44,17 +55,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\Social_network\src\Components\Profile\ProfileInfo" />
+      <recent name="E:\Projects\Social_network\src\Components\Dialogs\Messages" />
+      <recent name="E:\Projects\Social_network\src\Components\Dialogs\DialogItem" />
+      <recent name="E:\Projects\Social_network\src\Components\Settings" />
+      <recent name="E:\Projects\Social_network\src\Components\News" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
       <recent name="D:\My\Projects\Social_network\src\Components\Nav" />
       <recent name="D:\My\Projects\Social_network\src\Components\Header" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Projects\Social_network\src\Components\Settings" />
-      <recent name="E:\Projects\Social_network\src\Components\News" />
-      <recent name="E:\Projects\Social_network\src\Components\Music" />
-      <recent name="D:\My\Projects\Social_network\src\Components\Profile\MyPosts" />
-      <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -74,7 +85,8 @@
       <workItem from="1631604018763" duration="7632000" />
       <workItem from="1631642750420" duration="5392000" />
       <workItem from="1631734186237" duration="5527000" />
-      <workItem from="1631820086369" duration="2925000" />
+      <workItem from="1631820086369" duration="3072000" />
+      <workItem from="1631990848592" duration="8834000" />
     </task>
     <servers />
   </component>
