@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Music/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Music/Music.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +45,20 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
+      <recent name="D:\My\Projects\Social_network\src\Components\Nav" />
+      <recent name="D:\My\Projects\Social_network\src\Components\Header" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\Social_network\src\Components\Profile\ProfileInfo" />
       <recent name="E:\Projects\Social_network\src\Components\Dialogs\Messages" />
       <recent name="E:\Projects\Social_network\src\Components\Dialogs\DialogItem" />
       <recent name="E:\Projects\Social_network\src\Components\Settings" />
       <recent name="E:\Projects\Social_network\src\Components\News" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
-      <recent name="D:\My\Projects\Social_network\src\Components\Nav" />
-      <recent name="D:\My\Projects\Social_network\src\Components\Header" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -90,7 +85,7 @@
       <workItem from="1639689297153" duration="357000" />
       <workItem from="1639689675741" duration="387000" />
       <workItem from="1639690078790" duration="4204000" />
-      <workItem from="1639855008870" duration="560000" />
+      <workItem from="1639855008870" duration="11107000" />
     </task>
     <servers />
   </component>
@@ -119,6 +114,14 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="452" y="134" key="#Inspections/0.40.1920.1040@0.40.1920.1040" timestamp="1639688919103" />
+    <state x="414" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639855860653">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="414" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1639855860653" />
+    <state x="676" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1639855875694">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="676" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1639855875694" />
     <state x="474" y="84" key="CommitChangelistDialog2" timestamp="1639855577498">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -139,10 +142,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1893" height="245" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
-    <state x="337" y="115" key="SettingsEditor" timestamp="1639855598016">
+    <state x="337" y="115" key="SettingsEditor" timestamp="1639855858093">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="337" y="115" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1639855598016" />
+    <state x="337" y="115" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1639855858093" />
     <state x="532" y="257" key="run.anything.popup" timestamp="1631648835658">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
