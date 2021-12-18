@@ -1,6 +1,5 @@
 import React from 'react';
-import DialogsStyle from './Dialogs.module.css'
-import {NavLink} from "react-router-dom";
+import DialogsStyle from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
 
@@ -8,7 +7,7 @@ const Dialogs = (props) => {
 
     let DialogsData = [
         {id: 1, name: 'Max'},
-        {id: 2, name: 'Olya'},
+        {id: 2, name: 'Ola'},
         {id: 3, name: 'Sveta'},
         {id: 4, name: 'Danila'}
     ];

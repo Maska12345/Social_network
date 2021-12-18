@@ -7,19 +7,19 @@ const Nav = () => {
     return (
         <nav className={navStyle.nav}>
             <div className={navStyle.item}>
-                <NavLink to="/profile" activeClassName={navStyle.active}>Profile</NavLink>
+                <NavLink to={"/profile"}>Profile</NavLink>
             </div>
             <div className={navStyle.item}>
-                <NavLink to="/dialogs" activeClassName={navStyle.active}>Messages</NavLink>
+                <NavLink to={"/dialogs"}>Messages</NavLink>
             </div>
             <div className={navStyle.item}>
-                <NavLink to="/news" activeClassName={navStyle.active}>News</NavLink>
+                <NavLink to={"/news"}>News</NavLink>
             </div>
             <div className={navStyle.item}>
-                <NavLink to="music" activeClassName={navStyle.active}>Music</NavLink>
+                <NavLink to={"/music"}>Music</NavLink>
             </div>
             <div className={navStyle.item}>
-                <NavLink to="/settings" activeClassName={navStyle.active}>Settings</NavLink>
+                <NavLink to={"/settings"}>Settings</NavLink>
             </div>
         </nav>
     )

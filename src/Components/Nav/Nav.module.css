@@ -3,11 +3,12 @@
     background-color: beige;
     padding: 20px;
 }
-.item a.active{
-    color: crimson;
-}
+
 .item a{
     color: olivedrab;
     text-decoration: none;
 }
 
+.item a:focus {
+    color: crimson;
+}

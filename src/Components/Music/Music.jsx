@@ -1,5 +1,4 @@
 import React from 'react';
-import navStyle from './Music.module.css'
 
 
 const Music = () => {

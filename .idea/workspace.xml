@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Dialogs/Message/Message.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Music/Music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Music/Music.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Nav/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Nav/Nav.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -86,7 +84,13 @@
       <workItem from="1631642750420" duration="5392000" />
       <workItem from="1631734186237" duration="5527000" />
       <workItem from="1631820086369" duration="3072000" />
-      <workItem from="1631990848592" duration="8834000" />
+      <workItem from="1631990848592" duration="9865000" />
+      <workItem from="1638991208003" duration="675000" />
+      <workItem from="1639686080729" duration="3180000" />
+      <workItem from="1639689297153" duration="357000" />
+      <workItem from="1639689675741" duration="387000" />
+      <workItem from="1639690078790" duration="4204000" />
+      <workItem from="1639855008870" duration="560000" />
     </task>
     <servers />
   </component>
@@ -111,10 +115,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1631191883340">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="452" y="134" key="#Inspections" timestamp="1639688919103">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631191883340" />
+    <state x="452" y="134" key="#Inspections/0.40.1920.1040@0.40.1920.1040" timestamp="1639688919103" />
+    <state x="474" y="84" key="CommitChangelistDialog2" timestamp="1639855577498">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="474" y="84" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1639855577498" />
     <state width="1893" height="245" key="GridCell.Tab.0.bottom" timestamp="1631656302599">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -131,22 +139,13 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1893" height="245" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
-    <state x="461" y="191" key="SettingsEditor" timestamp="1631206526301">
+    <state x="337" y="115" key="SettingsEditor" timestamp="1639855598016">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="461" y="191" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1631206526301" />
-    <state x="461" y="162" key="SettingsEditor/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631190581843" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631192111209">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631192111209" />
+    <state x="337" y="115" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1639855598016" />
     <state x="532" y="257" key="run.anything.popup" timestamp="1631648835658">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="532" y="257" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1631648835658" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631190500539">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.-6.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1631190500539" />
   </component>
 </project>
