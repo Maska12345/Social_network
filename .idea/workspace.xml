@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -85,7 +86,8 @@
       <workItem from="1639689297153" duration="357000" />
       <workItem from="1639689675741" duration="387000" />
       <workItem from="1639690078790" duration="4204000" />
-      <workItem from="1639855008870" duration="11107000" />
+      <workItem from="1639855008870" duration="11618000" />
+      <workItem from="1640120690662" duration="5100000" />
     </task>
     <servers />
   </component>
