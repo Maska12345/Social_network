@@ -19,7 +19,7 @@ const App = (props) => {
                 <Nav/>
                 <div className='appContent'>
                     <Routes>
-                        <Route path={'/profile'} element={<Profile state={props.state.ProfilePage} />}/>
+                        <Route path={'/profile'} element={<Profile state={props.state.ProfilePage} addPost={props.addPost}/>}/>
                         <Route path={'/dialogs/*'} element={<Dialogs state={props.state.DialogsPage} />}></Route>
                         <Route path={'/news'} element={<News />}></Route>
                         <Route path={'/music'} element={<Music />}></Route>
