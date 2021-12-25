@@ -3,14 +3,19 @@ import postStyle from './MyPosts.module.css'
 import Post from "./Post/Post";
 
 
+
 const MyPosts = (props) => {
     let postsElements = props.PostsData.map(post => <Post post={post.post} like={post.like}/>);
 
     let newPostElement = React.createRef();
 
     let addPost = () => {
+        props.addPost();
+    }
+
+    let changeText = () =>{
         let text = newPostElement.current.value;
-        props.addPost(text);
+        props.UpdatePostsText(text);
     }
 
 
@@ -19,7 +24,7 @@ const MyPosts = (props) => {
             <h3>My posts</h3>
             <div>
                 <div>
-                    <textarea ref={newPostElement}></textarea>
+                    <textarea onChange={changeText} ref={newPostElement} value={props.newPostText}></textarea>
                 </div>
                 <div>
                     <button onClick={addPost}>Add Post</button>

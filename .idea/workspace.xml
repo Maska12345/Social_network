@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +43,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -89,7 +92,8 @@
       <workItem from="1639855008870" duration="11618000" />
       <workItem from="1640120690662" duration="5873000" />
       <workItem from="1640281949078" duration="1915000" />
-      <workItem from="1640291004492" duration="4536000" />
+      <workItem from="1640291004492" duration="5274000" />
+      <workItem from="1640457162113" duration="6738000" />
     </task>
     <servers />
   </component>
@@ -114,6 +118,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="452" y="134" key="#ESLint" timestamp="1640465643536">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="452" y="134" key="#ESLint/0.40.1920.1040@0.40.1920.1040" timestamp="1640465643536" />
     <state x="452" y="134" key="#Inspections" timestamp="1639688919103">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -126,33 +134,17 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="676" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1639855875694" />
+    <state x="627" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640464796802">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="627" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1640464796802" />
     <state x="474" y="84" key="CommitChangelistDialog2" timestamp="1640283414778">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="474" y="84" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1640283414778" />
-    <state width="1893" height="245" key="GridCell.Tab.0.bottom" timestamp="1631656302599">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="245" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
-    <state width="1893" height="245" key="GridCell.Tab.0.center" timestamp="1631656302599">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="245" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
-    <state width="1893" height="245" key="GridCell.Tab.0.left" timestamp="1631656302599">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="245" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
-    <state width="1893" height="245" key="GridCell.Tab.0.right" timestamp="1631656302599">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state width="1893" height="245" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1631656302599" />
     <state x="337" y="115" key="SettingsEditor" timestamp="1639855858093">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="337" y="115" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1639855858093" />
-    <state x="532" y="257" key="run.anything.popup" timestamp="1631648835658">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="532" y="257" key="run.anything.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1631648835658" />
   </component>
 </project>
