@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="ts.external.directory.path" value="E:\Disck_D\WebStorm\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -97,7 +101,7 @@
       <workItem from="1640631964955" duration="3199000" />
       <workItem from="1641333404808" duration="4460000" />
       <workItem from="1641938825402" duration="637000" />
-      <workItem from="1642021392723" duration="2719000" />
+      <workItem from="1642021392723" duration="6020000" />
     </task>
     <servers />
   </component>
