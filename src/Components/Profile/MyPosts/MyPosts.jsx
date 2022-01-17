@@ -6,19 +6,19 @@ import {addPostActionCreator, updateNewPostTextActionCreator} from '../../../red
 
 
 const MyPosts = (props) => {
+    debugger;
     let postsElements = props.PostsData.map(post => <Post post={post.post} like={post.like}/>);
 
     let newPostElement = React.createRef();
 
     let addPost = () => {
-        //props.addPost();
-        props.dispatch(addPostActionCreator());
+        props.addPost();
+
     }
 
     let changeText = () =>{
         let text = newPostElement.current.value;
-        //props.UpdatePostsText(text);
-        props.dispatch(updateNewPostTextActionCreator(text));
+        props.UpdatePostsText(text);
     }
 
 
