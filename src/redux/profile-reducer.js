@@ -5,10 +5,10 @@ let initinalState = {
     PostsData: [
         {id: 1, post: 'Hello my friends', like: 8},
         {id: 2, post: 'Hi bro!', like: 17}],
-        newPostText:'',
+    newPostText: '',
 }
 
-const profileReducer = (state =initinalState,action) =>{
+const profileReducer = (state = initinalState, action) => {
 
 
     switch (action.type) {
@@ -18,12 +18,17 @@ const profileReducer = (state =initinalState,action) =>{
                 post: state.newPostText,
                 like: 0
             };
-            state.PostsData.push(newPost);
-            state.newPostText = '';
-            return state;
+            return  {
+                ...state,
+                PostsData : [...state.PostsData,newPost],
+                newPostText : ''
+            };
+
         case 'UPDATE-NEW-POST-TEXT':
-            state.newPostText = action.newText;
-            return state;
+            return {
+                ...state,
+                newPostText : action.newText
+            };
         default:
             return state;
     }
@@ -36,10 +41,10 @@ export const addPostActionCreator = () => {
     }
 }
 
-export const updateNewPostTextActionCreator = (text) =>{
+export const updateNewPostTextActionCreator = (text) => {
     return {
-        type:UPDATE_NEW_POST_TEXT,
-        newText:text
+        type: UPDATE_NEW_POST_TEXT,
+        newText: text
     }
 }
 
