@@ -3,12 +3,12 @@ import './App.css';
 import Header from "./Components/Header/Header";
 import Nav from "./Components/Nav/Nav";
 import Profile from "./Components/Profile/Profile";
-import Dialogs from "./Components/Dialogs/Dialogs";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import Music from "./Components/Music/Music";
 import News from "./Components/News/News";
 import Settings from "./Components/Settings/Settings";
 import DialogsContainer from "./Components/Dialogs/DialogsContainer";
+import UsersContainer from "./Components/Users/UsersContainer";
 
 
 const App = (props) => {
@@ -19,8 +19,9 @@ const App = (props) => {
                 <Nav/>
                 <div className='appContent'>
                     <Routes>
-                        <Route path={'/profile'} element={<Profile store={props.store}/>}/>
-                        <Route path={'/dialogs/*'} element={<DialogsContainer store={props.store}/>}></Route>
+                        <Route path={'/profile'} element={<Profile />}/>
+                        <Route path={'/dialogs/*'} element={<DialogsContainer />}></Route>
+                        <Route path={'/users'} element={<UsersContainer />}/>
                         <Route path={'/news'} element={<News />}></Route>
                         <Route path={'/music'} element={<Music />}></Route>
                         <Route path={'/settings'} element={<Settings />}></Route>
