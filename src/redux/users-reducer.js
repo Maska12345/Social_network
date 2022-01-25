@@ -1,16 +1,15 @@
 const FOLLOW = 'FOLLOW';
 const UNFOLLOW = 'UNFOLLOW';
 const SET_USERS = 'SET_USERS';
+const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
+const SET_TOTAL_USERS_COUNT = 'SET_TOTAL_USERS_COUNT';
+
 
 let initinalState = {
-     users: [
-    //     {id: 1,photoUrl:'https://rusradio.lt/wp-content/uploads/2021/12/maxkorzh-logo.jpg',followed:false, fullName: 'Max', status: 'I am react developer',location:{country:'Ukraine',city:'Vinnytsia'}},
-    //     {id: 2,photoUrl:'https://upload.wikimedia.org/wikipedia/commons/c/cf/%D0%94%D0%B5%D0%BD%D0%B8%D1%81_%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8%D1%85%D0%B8%D0%BD_%28cropped%29.png',followed:true, fullName: 'Denis', status: 'I like big dogs',location:{country:'Belarus',city:'Minsk'}},
-    //     {id: 3,photoUrl:'https://odnaminyta.com/wp-content/uploads/2020/12/05b6de907f0014d85d1af221ec0c3078.jpg',followed:true, fullName: 'Stepan', status: 'Open to work',location:{country:'Ukraine',city:'Kyiv'}},
-    //     {id: 4,photoUrl:'https://hostelcity.su/wp-content/uploads/po-vostochnomu-kalendaryu-aleksandr-medvedev-vladimirovich-krolik.jpg',followed:false, fullName: 'Shura', status: 'I find new friends',location:{country:'Poland',city:'Krakow'}},
-    //     {id: 5,photoUrl:'https://sobesednik.ru/sites/default/files/complex_images/images/gena_bukin.jpg',followed:true, fullName: 'Gena', status: 'I can help with Android App',location:{country:'USA',city:'Los-Angeles'}},
-    //
-     ]
+     users: [],
+     pageSize:5,
+     totalUsersCount:21,
+     currentPage:1
 }
 
 const usersReducer = (state = initinalState, action) => {
@@ -40,7 +39,17 @@ const usersReducer = (state = initinalState, action) => {
         case SET_USERS:
             return {
                 ...state,
-                users:[...state.users,...action.users]
+                users:action.users
+            }
+        case SET_CURRENT_PAGE:
+            return {
+                ...state,
+                currentPage: action.currentPage
+            }
+        case SET_TOTAL_USERS_COUNT:
+            return {
+                ...state,
+                totalUsersCount: action.count
             }
         default:
             return state;
@@ -63,6 +72,17 @@ export const unfollowAC = (userId) => {
 export const setUsersAC = (users) => {
     return {
         type: SET_USERS,users
+    }
+}
+
+export const setCurrentPageAC = (currentPage) => {
+    return {
+        type: SET_CURRENT_PAGE,currentPage
+    }
+}
+export const setUsersCountAC = (totalUsersCount) => {
+    return {
+        type: SET_TOTAL_USERS_COUNT,count:totalUsersCount
     }
 }
 export default usersReducer;
