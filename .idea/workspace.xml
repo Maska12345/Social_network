@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/Components/Common/Preloader/Preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/users.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -107,6 +107,9 @@
       <workItem from="1642798573836" duration="6815000" />
       <workItem from="1642807255503" duration="997000" />
       <workItem from="1643142406460" duration="7044000" />
+      <workItem from="1643226984427" duration="1900000" />
+      <workItem from="1643228954042" duration="256000" />
+      <workItem from="1643229213034" duration="6097000" />
     </task>
     <servers />
   </component>
@@ -155,6 +158,26 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="474" y="84" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1642632228613" />
+    <state x="690" y="257" key="FileChooserDialogImpl" timestamp="1643229210224">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="690" y="257" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1643229210224" />
+    <state width="1893" height="235" key="GridCell.Tab.0.bottom" timestamp="1643229211543">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="235" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1643229211543" />
+    <state width="1893" height="235" key="GridCell.Tab.0.center" timestamp="1643229211542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="235" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1643229211542" />
+    <state width="1893" height="235" key="GridCell.Tab.0.left" timestamp="1643229211542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="235" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1643229211542" />
+    <state width="1893" height="235" key="GridCell.Tab.0.right" timestamp="1643229211542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="235" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1643229211542" />
     <state x="337" y="115" key="SettingsEditor" timestamp="1639855858093">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
