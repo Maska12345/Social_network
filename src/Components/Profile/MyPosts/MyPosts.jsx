@@ -6,7 +6,7 @@ import {addPostActionCreator, updateNewPostTextActionCreator} from '../../../red
 
 
 const MyPosts = (props) => {
-    debugger;
+
     let postsElements = props.PostsData.map(post => <Post post={post.post} like={post.like}/>);
 
     let newPostElement = React.createRef();
