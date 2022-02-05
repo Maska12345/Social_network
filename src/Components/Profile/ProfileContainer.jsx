@@ -1,10 +1,9 @@
 import React from 'react';
 import Profile from "./Profile";
-import * as axios from "axios";
 import {connect} from "react-redux";
-import {getUserProfile, setUserProfile} from "../../redux/profile-reducer";
-import {useMatch} from "react-router";
-import {UsersAPI as userAPI} from "../../api/api";
+import {getUserProfile} from "../../redux/profile-reducer";
+import {Navigate, useMatch} from "react-router";
+
 
 
 
@@ -20,7 +19,11 @@ class ProfileContainer extends React.Component{
     }
 
     render(){
+        if(!this.props.isAuth){
+            return <Navigate to="/login" />
+        }
         return(
+
             <Profile {...this.props } profile={this.props.profile}/>
         )
 }
@@ -30,6 +33,7 @@ class ProfileContainer extends React.Component{
 
 let mapStateToProps = (state)=>({
     profile:state.ProfilePage.profile,
+    isAuth: state.auth.isAuth
 })
 debugger
 

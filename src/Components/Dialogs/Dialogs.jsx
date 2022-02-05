@@ -2,6 +2,7 @@ import React from 'react';
 import DialogsStyle from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
+import {Navigate} from "react-router";
 
 const Dialogs = (props) => {
 
@@ -11,7 +12,7 @@ const Dialogs = (props) => {
     let dialogsElements = state.DialogsData.map(dialog => <DialogItem name={dialog.name} key={dialog.id} id={dialog.id}/>);
     let messagesElements = state.MessagesData.map(message => <Message key={message.id} message={message.message}/>);
     let newMessageBody = state.newMessageBody;
-debugger;
+
     let onSendMessageClick = () => {
         props.sendMessage();
     }
@@ -19,6 +20,10 @@ debugger;
     let onNewMessageChange = (e) => {
         let body = e.target.value;
         props.updateNewMessageBody(body);
+    }
+
+    if(!props.isAuth){
+        return <Navigate to="/login" />
     }
 
     return (
