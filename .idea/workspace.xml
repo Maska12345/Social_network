@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/src/Components/Login/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withAuthRedirect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/DialogsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,9 @@
       <workItem from="1643651062453" duration="3352000" />
       <workItem from="1643655991645" duration="9402000" />
       <workItem from="1643747055961" duration="6915000" />
-      <workItem from="1644081917825" duration="5128000" />
+      <workItem from="1644081917825" duration="5936000" />
+      <workItem from="1644228432644" duration="1446000" />
+      <workItem from="1644437884643" duration="3062000" />
     </task>
     <servers />
   </component>
@@ -153,10 +156,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="414" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1639855860653" />
-    <state x="676" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643656447618">
+    <state x="676" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1644439390303">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="676" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1643656447618" />
+    <state x="676" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1644439390303" />
     <state x="627" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640464796802">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

@@ -19,16 +19,19 @@ class ProfileContainer extends React.Component{
     }
 
     render(){
-        if(!this.props.isAuth){
-            return <Navigate to="/login" />
-        }
+
         return(
 
             <Profile {...this.props } profile={this.props.profile}/>
         )
 }
+}
 
-
+let AuthRedirectComponent = (props) =>{
+    if(!this.props.isAuth){
+        return <Navigate to="/login" />
+    }
+    return <ProfileContainer {...props}/>
 }
 
 let mapStateToProps = (state)=>({
