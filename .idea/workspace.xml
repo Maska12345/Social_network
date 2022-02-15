@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="54b5b829-dc40-4753-9d6e-30e87f4d9223" name="Default Changelist" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +53,17 @@
     <property name="ts.external.directory.path" value="E:\Disck_D\WebStorm\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
-      <recent name="D:\My\Projects\Social_network\src\Components\Nav" />
-      <recent name="D:\My\Projects\Social_network\src\Components\Header" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\Social_network\src\Components\Header" />
       <recent name="E:\Projects\Social_network\src\redux" />
       <recent name="E:\Projects\Social_network\src\Components\Profile" />
       <recent name="E:\Projects\Social_network\src\Components\Users" />
       <recent name="E:\Projects\Social_network\src\Components\Dialogs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My\Projects\Social_network\src\Components\Profile" />
+      <recent name="D:\My\Projects\Social_network\src\Components\Nav" />
+      <recent name="D:\My\Projects\Social_network\src\Components\Header" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -115,7 +118,10 @@
       <workItem from="1643747055961" duration="6915000" />
       <workItem from="1644081917825" duration="5936000" />
       <workItem from="1644228432644" duration="1446000" />
-      <workItem from="1644437884643" duration="5366000" />
+      <workItem from="1644437884643" duration="6033000" />
+      <workItem from="1644524585792" duration="814000" />
+      <workItem from="1644947929713" duration="1291000" />
+      <workItem from="1644965693859" duration="267000" />
     </task>
     <servers />
   </component>

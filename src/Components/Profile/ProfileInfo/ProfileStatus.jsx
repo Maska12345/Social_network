@@ -5,18 +5,17 @@ import React from "react";
 class ProfileStatus extends React.Component{
 
     state = {
-        editMode:true
+        editMode:false
     }
 
     render() {
         return (
             <div>
-                {!this.props.editMode &&
+                {!this.state.editMode ?
                 <div>
-                    <span>{this.props.status}</span>
+                    <span>{this.state.status}</span>
                 </div>
-                }
-                {this.props.editMode &&
+               :
                 <div>
                     <input value={this.props.status}/>
                 </div>
