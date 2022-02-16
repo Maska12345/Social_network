@@ -12,8 +12,8 @@ let mapStateToProps = (state)=>{
 
 let mapDispatchToProps = (dispatch)=>{
     return{
-        addPost:()=>{dispatch(addPostActionCreator())},
-        changeText:(text)=>{dispatch(updateNewPostTextActionCreator(text))},
+        addPost:(newPostText)=>{dispatch(addPostActionCreator(newPostText))},
+
 
     }
 }
