@@ -8,7 +8,8 @@ const Header = (props) =>{
         <header className={headerStyle.header}>
             <img className='logo' src="https://img.pngio.com/atom-icon-png-401284-free-icons-library-atomic-png-256_256.jpg"/>
             <div className={headerStyle.loginBlock}>
-                {props.isAuth?props.login
+                {props.isAuth?
+                    <div>{props.login} - <button onClick={props.logout}>Log Out</button></div>
                 :<NavLink to={'/login'}>Login</NavLink>}
             </div>
         </header>
